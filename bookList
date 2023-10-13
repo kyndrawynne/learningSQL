@@ -1,1 +1,7 @@
+/** Data base in the form of a table of some great books **/
 
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES (1, "It Ends With Us", 10);
+INSERT INTO books VALUES (2, "The Mountain is You", 8);
+INSERT INTO books VALUES (3, "The Perfectionists Guide to Losing Control", 9);
